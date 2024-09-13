@@ -4,7 +4,7 @@ A script that automatically updates the version number when a build is performed
 
 The two files (Config.xcconfig and version.sh) should be dropped in \$SRCROOT/\$PROJECT_NAME.  
 
-The build might not work if ENABLE_USER_SCRIPT_SANDBOXING is set to YES in `Build Setting` -> `Build Options`  Set this value to NO.
+The build might not work if ENABLE_USER_SCRIPT_SANDBOXING is set to YES in `Build Settings` -> `Build Options`  Set this value to NO.
 
 In Build Phases -> Run Script, drop the contents of the script (both lines) in the text box for Shell.
 
