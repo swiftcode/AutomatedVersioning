@@ -2,7 +2,7 @@
 # This script is designed to increment the build number consistently across all
 # targets.
 
-# Navigating to the 'carbonwatchuk' directory inside the source root.
+# Navigating to the project directory inside the source root.
 cd "$SRCROOT/$PRODUCT_NAME"
 
 # Get the current date in the format "YYYYMMDD".
