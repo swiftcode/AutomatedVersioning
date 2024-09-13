@@ -6,7 +6,11 @@ The two files (Config.xcconfig and version.sh) should be dropped in \$SRCROOT/\$
 
 The build might not work if ENABLE_USER_SCRIPT_SANDBOXING is set to YES in `Build Settings` -> `Build Options`  Set this value to NO.
 
-In Build Phases -> Run Script, drop the contents of the script (both lines) in the text box for Shell.
+In Build Phases -> Run Script, add the following to the text box under Shell:
+
+`cd "$SRCROOT/$PRODUCT_NAME"
+
+source version.sh`
 
 Note: Script is from an article at https://medium.com/@mateuszsiatrak/automating-build-number-increments-in-xcode-with-custom-format-a-practical-guide-bcc90a19f716
 
