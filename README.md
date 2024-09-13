@@ -1,6 +1,6 @@
 # Automated Version Numbers
 
-A script that automatically updates the version number when a build is performed.  It sets $(CURRENT\_PROJECT\_VERSION) and $(MARKETING\_VERSION).
+A script that automatically updates the version number when a build is performed.  It sets `$(CURRENT_PROJECT_VERSION)` and `$(MARKETING_VERSION)`.
 
 The two files (Config.xcconfig and version.sh) should be dropped in \$SRCROOT/\$PROJECT_NAME.  
 
