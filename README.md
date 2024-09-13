@@ -8,9 +8,8 @@ The build might not work if ENABLE_USER_SCRIPT_SANDBOXING is set to YES in `Buil
 
 In Build Phases -> Run Script, add the following to the text box under Shell:
 
-`cd "$SRCROOT/$PRODUCT_NAME"
-
-source version.sh`
+    cd "$SRCROOT/$PRODUCT_NAME"
+    source version.sh
 
 Note: Script is from an article at https://medium.com/@mateuszsiatrak/automating-build-number-increments-in-xcode-with-custom-format-a-practical-guide-bcc90a19f716
 
