@@ -1,4 +1,5 @@
 # Automated Version Numbers
+## For Swift Projects
 
 A script that automatically updates the version number when a build is performed.  It sets `$(CURRENT_PROJECT_VERSION)` and `$(MARKETING_VERSION)`.
 
